@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Image gallery</title>
+  <link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="animate.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css" media="screen,projection">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <style>
+    body {
+      background: #00695c;
+    }
+
+    footer {
+      height: 5%;
+    }
+
+    .fa-4x {
+      margin: 10px;
+    }
+
+    #row-2 {
+      opacity: 0;
+    }
+
+    #row-3 {
+      opacity: 0;
+    }
+
+    #row-4 {
+      opacity: 0;
+    }
+
+    @media screen and (max-width:500px) {
+      .abcd {
+        font-size: 20px !important;
+      }
+
+    }
+
+    .bhg {
+      font: 400 50px/1.3 'Oleo Script', Helvetica, sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="navbar-fixed">
+    <nav class="grey darken-4">
+      <div class="container">
+        <div class="nav-wrapper">
+          <!-- <a href="gallery.html" data-activates="mobile-nav" class="button-collapse show-on-large">
+            <i class="material-icons">menu</i>
+          </a> -->
+
+          <a href="madan.html" class="brand-logo">
+            <span class="abcd bhg">Image-Gallery</span>
+          </a>
+
+          <ul class="right hide-on-med-and-down">
+            <li class="active">
+              <a href="#sign-in" class="modal-trigger signin">Sign-in</a>
+            </li>
+            <li>
+              <a href="mygallery.html">Abstract</a>
+            </li>
+            <li>
+              <a href="gaming.html">Superheroes</a>
+            </li>
+            <li>
+              <a href="nature.html">Gaming</a>
+            </li>
+            <li>
+              <a href="madan.html">
+                <strong>HD
+                  <strong>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!--  <ul class="side-nav" id="mobile-nav">
+          <li>
+            <a href="gallery.html">Sign-in</a>
+          </li>
+          <li>
+            <a href="gallery.html">Abstract</a>
+          </li>
+          <li>
+            <a href="gaming.html">Gaming</a>
+          </li>
+          <li>
+            <a href="nature.html">Nature</a>
+          </li>
+        </ul>  -->
+
+
+      </div>
+
+    </nav>
+
+  </header>
+
+  <img class="materialboxed" width="100%" src="http://www.mediafire.com/convkey/a92a/qhmmxu4yby8hfv4zg.jpg">
+
+  <section class="section section1">
+    <div class="container">
+
+      <div class="row" id="row-1">
+        <div class="col s12 m6 hide-on-small-only">
+          <div class="img-content">
+            <h3>Honey-bee</h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus repellendus quasi commodi corporis. Soluta in laborum, ullam
+            repellat quaerat eveniet?
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card hoverable">
+            <div class="card-image">
+              <img src="http://www.mediafire.com/convkey/8c98/immj8jjqx5d0uuvzg.jpg" alt="">
+
+              <p class="card-title">Honey-bee</p>
+
+              <a href="#abstract1" class="btn-floating halfway-fab waves-effect waves-light pulse modal-trigger">
+                <i class="material-icons">add</i>
+              </a>
+            </div>
+            <div class="card-content">
+              <p>
+                <i class="material-icons">star</i>
+                <i class="material-icons">star</i>
+                <i class="material-icons">star</i>
+                <i class="material-icons">star</i>
+                <i class="material-icons">star</i>
+
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="row" id="row-2">
+
+        <div class="col s12 m6">
+          <div class="card hoverable">
+            <div class="card-image">
+              <img src="http://www.mediafire.com/convkey/3032/y1djuilzzvrr6lvzg.jpg" alt="">
+              <p class="card-title white-text">Spider</p>
+              <a href="#abstract2" class="modal-trigger btn-floating  halfway-fab pulse waves-effect waves-light">
+                <i class="material-icons">add</i>
+              </a>
+
+            </div>
+            <div class="card-content">
+              <p>
+                <i class="material-icons">star</i>
+                <i class="material-icons">star</i>
+                <i class="material-icons">star</i>
+                <i class="material-icons">star</i>
+                <i class="material-icons">star</i>
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 hide-on-small-only">
+          <div class="img-content">
+            <h3>Spider</h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus repellendus quasi commodi corporis. Soluta in laborum, ullam
+            repellat quaerat eveniet?
+          </div>
+        </div>
+      </div>
+      <div class="row" id="row-3">
+        <div class="col m6">
+          <div class="img-content">
+            <h3>Swan</h3>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus facere nihil cum nulla voluptate explicabo accusamus
+            vero exercitationem a recusandae illum illo rem ipsa, deleniti quidem, vitae aspernatur dicta quod.
+          </div>
+        </div>
+        <div class="col m6">
+          <div class="card hoverable">
+            <div class="card-image">
+              <img src="http://www.mediafire.com/convkey/926f/h69ivk16mjgqhchzg.jpg" alt="">
+
+              <a href="#abstract3" class="modal-trigger btn-floating  halfway-fab pulse waves-effect waves-light">
+                <i class="material-icons">add</i>
+              </a>
+              <p class="card-title mycard">Swan</p>
+            </div>
+            <div class="card-content">
+
+              <p>
+                <i class="material-icons">star</i>
+                <i class="material-icons">star</i>
+                <i class="material-icons">star</i>
+                <i class="material-icons">star</i>
+              </p>
+
+            </div>
+
+
+          </div>
+        </div>
+
+      </div>
+      <div class="row" id="row-4">
+        <div class="col m6">
+
+          <div class="card hoverable">
+            <div class="card-image">
+              <img src="http://www.mediafire.com/convkey/f80e/g8zgbwvn3o1ydb9zg.jpg" alt="">
+              <p class="card-title black-text">Hat</p>
+              <a href="#abstract4" class="modal-trigger btn-floating halfway-fab pulse waves-effect waves-light">
+                <i class="material-icons">add</i>
+              </a>
+            </div>
+            <div class="card-content">
+
+              <p>
+                <i class="material-icons">star</i>
+                <i class="material-icons">star</i>
+                <i class="material-icons">star</i>
+                <i class="material-icons">star</i>
+              </p>
+
+            </div>
+
+
+          </div>
+
+        </div>
+        <div class="col m6">
+          <div class="img-content">
+            <h3>Hat</h3>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus facere nihil cum nulla voluptate explicabo accusamus
+            vero exercitationem a recusandae illum illo rem ipsa, deleniti quidem, vitae aspernatur dicta quod.
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer1 center  grey darken-3 white-text">
+    <div class="container mydiv">
+      <div class="row">
+        <div class="col s12">
+          <h3>Follow on social media</h3>
+          <h4>
+            <strong>Photo-Credits-
+              <a href="https://www.linkedin.com/in/madan-krishnan-v-k-b34806129/">Madan Krishnan</a>
+            </strong>
+          </h4>
+          <a href="https://www.linkedin.com/in/abhay-deshpande-64a93b14a/" class="white-text">
+            <i class="fab fa-linkedin fa-4x"></i>
+          </a>
+          <a href="https://www.instagram.com/abhay1401/?hl=en" class="white-text">
+            <i class="fab fa-instagram fa-4x"></i>
+          </a>
+          <a href="https://github.com/abhaydee" class="white-text">
+            <i class="fab fa-github fa-4x"></i>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div id="abstract1" class="modal">
+    <div class="modal-content">
+      <h3 class="center">Honey-Bee.</h4>
+        <img src="http://www.mediafire.com/convkey/8c98/immj8jjqx5d0uuvzg.jpg" class="responsive-img" alt="">
+        <p class="black-text center">
+          <strong>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae eveniet magni sapiente porro ea, aliquid, perspiciatis
+            sunt cum voluptatem possimus quo saepe at ipsam accusantium.</strong>
+        </p>
+    </div>
+  </div>
+  <div id="abstract2" class="modal">
+    <div class="modal-content">
+      <h3 class="center">Spider</h3>
+      <img src="http://www.mediafire.com/convkey/3032/y1djuilzzvrr6lvzg.jpg" class="responsive-img" alt="">
+      <p class="black-text center">
+        <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos in odit aut velit deleniti. Laborum eum ducimus
+          praesentium obcaecati tempora dolorum! Illo sapiente voluptas alias.</strong>
+
+      </p>
+    </div>
+  </div>
+
+  <div id="abstract3" class="modal">
+    <div class="modal-content">
+      <h3 class="center">Swan</h3>
+      <img src="http://www.mediafire.com/convkey/926f/h69ivk16mjgqhchzg.jpg" class="responsive-img" alt="">
+      <p class="black-text center">
+        <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione velit maiores ea magni, aut mollitia et unde. Esse,
+          aut repellendus? Odio odit quisquam accusantium ab.</strong>
+      </p>
+    </div>
+  </div>
+
+  <div id="sign-in" class="modal">
+    <div class="modal-content">
+      <h3 class="center teal-text">
+        <strong>Sign-in</strong>
+      </h3>
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <input class="teal-text" type="text" placeholder="first-name" id="first-name">
+            <input class="teal-text" type="text" placeholder="last-name" id="last-name">
+            <input class="teal-text" type="email" placeholder="Email" id="email">
+          </div>
+          <div class="row">
+            <div class="col s12">
+              <input class="teal-text" type="password" placeholder="Password" id="password">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col s12">
+              <a href="#" class="btn btn-small center waves-effect waves-light">
+                submit
+                <i class="material-icons center">send</i>
+              </a>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="abstract4" class="modal">
+    <div class="modal-content">
+      <h3 class="center">Hat</h3>
+      <img src="http://www.mediafire.com/convkey/f80e/g8zgbwvn3o1ydb9zg.jpg" class="responsive-img" alt="">
+      <p class="center black-text">
+        <strong>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio vitae enim error, provident aspernatur delectus hic
+          corrupti laudantium fuga placeat?</strong>
+      </p>
+    </div>
+  </div>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.js"></script>
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  <script>
+
+    $(document).ready(function () {
+
+      //$('.button-collapse').sideNav();
+      $('.parallax-container').parallax();
+
+      $('.modal').modal();
+      const options = [
+        {
+          selector: '#row-1', offset: 50, callback: function (el) {
+            Materialize.fadeInImage($(el));
+          }
+
+        },
+        {
+          selector: '#row-2', offset: 250, callback: function (el) {
+            Materialize.fadeInImage($(el));
+          }
+        },
+        {
+          selector: '#row-3', offset: 300, callback: function (el) {
+            Materialize.fadeInImage($(el));
+          }
+        },
+
+
+        {
+          selector: '#row-4', offset: 350, callback: function (el) {
+            Materialize.fadeInImage($(el));
+          }
+        }
+
+
+      ];
+
+      Materialize.scrollFire(options);
+
+    });
+
+  </script>
+</body>
+
+</html>
