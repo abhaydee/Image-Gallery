@@ -4,9 +4,12 @@ A front-end image gallery website that uses Materialize and jQuery.
 
 ## Screenshots
 
-<img src="./screenshots/screen0.png">&ensp;<img src="./screenshots/screen1.png">
-<img src="./screenshots/phone1.png">&ensp;<img src="./screenshots/phone2.png">
-<img src="./screenshots/phone3.png">
+<img src="./screenshots/screen0.png">&ensp;
+
+<img src="./screenshots/screen1.png">&ensp;
+
+<img src="./screenshots/phone1.png" width="30%">&ensp;<img src="./screenshots/phone2.png" width="30%">&ensp;
+<img src="./screenshots/phone3.png" width="30%">
 
 ## Libraries & Frameworks Used
 
