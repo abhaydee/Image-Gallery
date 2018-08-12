@@ -8,7 +8,6 @@ A front-end image gallery website that uses Materialize and jQuery.
 
 ## Libraries & Frameworks Used
 
-- [Materialize](https://materializecss.com)
 - [jQuery](https://jquery.com)
 
 ## Developed By
